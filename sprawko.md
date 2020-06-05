@@ -102,3 +102,27 @@ Kariera; Ile by Wam zajęło zrobienie takiego zadania https://github.com/perseu
 Kariera; Patrząc na ten artykuł można się szykować powoli powrotu do mordoru - jak u Was wygląda sytuacja? Macie już jakieś pierwsze informacje o powrocie do mordoru? https://warszawa.naszemiasto.[...]zie-wygladala-w/ar/c1-7671255? 
 Kariera; Tytuł wątku nie jest przypadkowy. B2B stało się niesamowicie popularne a już zwłaszcza w świecie IT. ...
 ```
+
+Zbiór jest do pobrania tutaj: https://github.com/gregxsunday/msi-text-clasification/blob/master/posts.csv
+
+# Mój model
+
+![](img/10.png)\
+
+W moim zbiorze znalazło się 501 postów z kategorii Kariera i 500 z kategorii Edukacja.
+
+![](img/11.png)\
+
+Zbiór podzieliłem w stosunku 1:9. Zdecydowałem się na 5 epok treningowych. Były to parametry, dla których na testowym zbiorze osiągnąłem najlepsze wyniki.
+
+
+## Wyniki
+
+![](img/12.png)\
+
+Skuteczność: 71,29%
+
+Uważam to za bardzo dobry wynik - wybrane przeze mnie grupy bardzo na siebie nachodzą, a użytkownicy czasem sami piszą w złym miejscu, więc jestem pod wrażeniem, że udało się sklasyfikować posty z taką skutecznością.
+
+![](img/13.png)\
+
