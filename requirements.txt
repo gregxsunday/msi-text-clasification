@@ -27,6 +27,6 @@ Keras==2.3.1
 setuptools==46.3.0
 click==7.1.2
 h5py==2.10.0
-pyyaml==3.13
+pyyaml==5.4
 keras-preprocessing==1.1.0
 keras-applications==1.0.8
